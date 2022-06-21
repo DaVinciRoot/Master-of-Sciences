@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              SalePrice   R-squared:                       0.678
+Model:                            OLS   Adj. R-squared:                  0.677
+Method:                 Least Squares   F-statistic:                     363.6
+Date:                Mon, 25 Apr 2022   Prob (F-statistic):          6.48e-127
+Time:                        20:06:58   Log-Likelihood:                -3008.9
+No. Observations:                 521   AIC:                             6026.
+Df Residuals:                     517   BIC:                             6043.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        -71.5375     13.430     -5.327      0.000     -97.922     -45.153
+Size         164.1308      5.843     28.089      0.000     152.651     175.610
+Beds          -6.3600      4.137     -1.537      0.125     -14.488       1.768
+Highway       -0.4809     23.896     -0.020      0.984     -47.425      46.464
+==============================================================================
+Omnibus:                      139.204   Durbin-Watson:                   1.369
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              470.170
+Skew:                           1.218   Prob(JB):                    8.01e-103
+Kurtosis:                       6.966   Cond. No.                         30.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
